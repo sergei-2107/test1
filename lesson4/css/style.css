@@ -1,0 +1,19 @@
+h5 {
+    color: red;
+}
+div {
+    background-color: cyan;
+}
+.header {
+    background-color: rgb(113, 239, 237);
+    color: blue;
+}
+.about {
+    background-color: blue;
+}
+.white-color{
+    color: azure;
+}
+#cats-types{
+font-size: 30px;
+}
