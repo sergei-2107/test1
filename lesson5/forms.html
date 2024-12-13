@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <input type="text"
+         placeholder="name"
+          maxlength="10"  
+          required
+            ><br>
+            <input type="email"><br>
+            <div>
+                <label>
+                    <input type="checkbox" name="it" value="html">
+                    HTML
+                </label>
+                <label>
+                    <input type="checkbox" name="it" value="css">
+                    CSS
+                </label>
+                <label>
+                    <input type="checkbox" name="it" value="js">
+                    JS
+                </label>
+            </div>
+            <input type="radio" id="html" name="it2" value="html">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="it2" value="css">
+            <label for="css">CSS</label>
+            <input type="radio" id="js" name="it2" value="js">
+            <label for="js">JS</label><br>
+
+            <input type="password"><br>
+            <input type="file"><br>
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="range" min="0" max="100" step="1"><br>
+            <input type="number"><br>
+            <input type="tel"><br>
+            <input type="time"><br>
+            <select>
+                <option value=""></option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <textarea rows="5" cols="12" style="resize: none;" wrap="hard"></textarea><br>
+            <input type="datetime-local"><br>
+        <input type="submit" value="enter">
+        <input type="button" value="button">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
