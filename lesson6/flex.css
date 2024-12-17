@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    height: 150px;
+    background-color: aqua;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+}
+
+
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+    
+}
+.blue {
+    background-color: blue;
+    height: 60px;
+}
+.yellow {
+    background-color: yellow;
+    height: 70px;
+}
+.purple {
+    background-color: purple;
+    height: 35px;
+}
