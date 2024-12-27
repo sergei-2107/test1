@@ -1,0 +1,71 @@
+#p::after {
+    content:"after";
+    color: aqua;
+}
+
+#p::before {
+    content: "12121212";
+    color: red;
+}
+
+.links:link {
+    color: green;
+}
+
+.links:visited {
+    color: orange;
+}
+
+.links:active {
+    color: purple;
+}
+
+.hover-div:hover {
+    background-color: yellow;
+    width: 100px;
+}
+
+.hover-div > span:hover {
+    color: blue;
+    background-color: aquamarine;
+    cursor: crosshair;
+}
+
+.empty:empty {
+    height: 20px;
+    background-color: azure;
+}
+
+.child:first-child {
+    background-color: rgb(220, 15, 15);
+}
+
+.child:last-child {
+    background-color: green;
+}
+
+.child:nth-child(even) {
+    color: cyan;
+}
+
+.child:nth-child(odd) {
+    color: rgb(140, 192, 38);
+}
+
+.child:nth-child(3n+2) {
+    background-color: violet;
+}
+
+@media screen and (max-width: 768px) {
+    a {
+        display: none;
+    }
+    .empty {
+        width: 50%;
+        background-color: blue;
+        color: tomato;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
