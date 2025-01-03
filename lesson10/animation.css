@@ -1,0 +1,63 @@
+.circle {
+    position: relative;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out ;
+    animation-play-state: running;
+}
+
+.button {
+    background-color: aqua;
+    transition: background-color 4s, font-size 2s;
+    }
+    .button:hover {
+    background-color: lightcoral;
+    font-size: 30px;
+    }
+
+.circle:hover {
+    animation-play-state: paused;
+}
+
+@keyframes circle {
+    from {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color:red;
+        left: 50px;
+    }
+    20% {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: blue;
+        left: 250px;
+        top: 50;
+    }
+    40% {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    60% {
+        width: 250px;
+        height: 250px;
+        border-radius: 25%;
+        background-color: purple;
+    }
+    80% {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: blue;
+    }
+    to {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        background-color:green;
+    }
+}

@@ -1,0 +1,25 @@
+$redcolor: red;
+$maincolor:blue;
+
+@mixin text {
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+
+
+.koala {
+    width: 500px;
+    height: 500px;
+    background-color: $redcolor;
+    span {
+        color: $maincolor;
+        font-size: 20px;
+    }
+    &-main {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        @include text;
+    }
+}
