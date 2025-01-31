@@ -35,6 +35,9 @@
 // //     alert ('третья четверть')
 // // }
 
+
+
+
 // if (0 <= min <= 14) {
 //     alert ('ne pervaya chetvert');
 // }
