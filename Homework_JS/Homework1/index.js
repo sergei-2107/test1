@@ -67,4 +67,49 @@
 // };
 
 
+const days1 = 'ru';
+
+// if (days == 'en') {
+//    console.log('Monday');
+//    console.log('Tuesday');
+//    console.log('Wednesday');
+//    console.log('Thursday');
+//    console.log('Friday');
+//    console.log('Saturday');
+//    console.log('Sunday');
+   
+    
+// };  {
+//     console.log('Понедельник');
+//     console.log('Вторник');
+//     console.log('Среда');
+//     console.log('Четверг');
+//     console.log('Пятница');
+//     console.log('Суббота');
+//     console.log('Воскресенье');
+// }
+
+
+if (days1 === 'ru') {
+   console.log('Понедельник');
+   console.log('Вторник');
+   console.log('Среда');
+   console.log('Четверг');
+   console.log('Пятница');
+   console.log('Суббота');
+   console.log('Воскресенье');
+   
+};
+if (days1 =='ru') {
+    console.log('Monday');
+    console.log('Tuesday');
+    console.log('Wednesday');
+    console.log('Thursday');
+    console.log('Friday');
+    console.log('Saturday');
+    console.log('Sunday');
+    
+}
+
+
 
