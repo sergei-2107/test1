@@ -1,0 +1,15 @@
+body {
+    margin-top: 300px;
+    background-color: tan;
+    justify-items: center;
+}
+
+#error {
+    color: red;
+    display: none;
+}
+
+#number {
+    color:yellowgreen;
+    background-color: #2e7e65;
+}
